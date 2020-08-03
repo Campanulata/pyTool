@@ -44,7 +44,7 @@ def rea(path, pdf_name):
  
 if __name__ == '__main__':
     mypath=os.getcwd()
-    mypath=
+    mypath=input()
     pdf_name = mypath
     if ".pdf" in pdf_name:
         rea(mypath, pdf_name=pdf_name)
